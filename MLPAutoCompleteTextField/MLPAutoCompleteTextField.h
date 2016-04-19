@@ -31,7 +31,6 @@
 
 + (NSString *) accessibilityLabelForIndexPath:(NSIndexPath *)indexPath;
 
-@property (strong, readonly) UITableView *autoCompleteTableView;
 
 // all delegates and datasources should be weak referenced
 @property (weak) IBOutlet id <MLPAutoCompleteTextFieldDataSource> autoCompleteDataSource;
