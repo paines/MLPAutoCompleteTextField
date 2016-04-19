@@ -59,7 +59,6 @@ static NSString *kAutoCompleteTableViewHiddenKeyPath = @"autoCompleteTableView.h
 static NSString *kBackgroundColorKeyPath = @"backgroundColor";
 static NSString *kDefaultAutoCompleteCellIdentifier = @"_DefaultAutoCompleteCellIdentifier";
 @interface MLPAutoCompleteTextField ()
-@property (strong, readwrite) UITableView *autoCompleteTableView;
 @property (strong) NSArray *autoCompleteSuggestions;
 @property (strong) NSOperationQueue *autoCompleteSortQueue;
 @property (strong) NSOperationQueue *autoCompleteFetchQueue;

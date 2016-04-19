@@ -36,7 +36,7 @@
 // all delegates and datasources should be weak referenced
 @property (weak) IBOutlet id <MLPAutoCompleteTextFieldDataSource> autoCompleteDataSource;
 @property (weak) IBOutlet id <MLPAutoCompleteTextFieldDelegate> autoCompleteDelegate;
-
+@property (strong, readwrite) UITableView *autoCompleteTableView;
 
 @property (assign) NSTimeInterval autoCompleteFetchRequestDelay; //default is 0.1, if you fetch from a web service you may want this higher to prevent multiple calls happening very quickly.
 @property (assign) BOOL sortAutoCompleteSuggestionsByClosestMatch;
